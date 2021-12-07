@@ -38,6 +38,24 @@
       "processId": "${command:PickProcess}",
       "restart": true,
       "protocol": "inspector"
+    },
+    {
+      "type": "node",
+      "name": "vscode-jest-tests",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "yarn",
+      "args": ["jest", "--runInBand", "--watchAll=false"]
+    },
+    {
+      "name": "Docker Node.js Launch",
+      "type": "docker",
+      "request": "launch",
+      "preLaunchTask": "docker-run: debug",
+      "platform": "node"
     }
   ]
 }

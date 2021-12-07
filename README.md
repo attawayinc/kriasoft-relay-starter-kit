@@ -5,7 +5,7 @@
   <a href="http://www.typescriptlang.org/"><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg?style=flat-square" height="20"></a>
   <a href="http://patreon.com/koistya"><img src="https://img.shields.io/badge/dynamic/json?color=%23ff424d&label=Patreon&style=flat-square&query=data.attributes.patron_count&suffix=%20patrons&url=https%3A%2F%2Fwww.patreon.com%2Fapi%2Fcampaigns%2F233228" height="20"></a>
   <a href="https://discord.gg/gx5pdvZ7Za"><img src="https://img.shields.io/discord/643523529131950086?label=Chat&style=flat-square" height="20"></a>
-  <a href="https://github.com/kriasoft/relay-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/relay-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a>
+  <a href="https://github.com/mcaj-git/kriasoft-relay-starter-kit/stargazers"><img src="https://img.shields.io/github/stars/kriasoft/relay-starter-kit.svg?style=social&label=Star&maxAge=3600" height="20"></a>
   <a href="https://twitter.com/koistya"><img src="https://img.shields.io/twitter/follow/koistya.svg?style=social&label=Follow&maxAge=3600" height="20"></a>
 </h1>
 
@@ -26,7 +26,7 @@
 
 ---
 
-This project was bootstrapped with [GraphQL API Starter Kit](https://github.com/kriasoft/relay-starter-kit).
+This project was bootstrapped with [GraphQL API Starter Kit](https://github.com/mcaj-git/kriasoft-relay-starter-kit).
 Be sure to join our [Discord channel](https://discord.com/invite/bSsv7XM) for assistance.
 
 ## Directory Structure
@@ -53,7 +53,7 @@ Just clone the repo and run `yarn setup` followed by `yarn start`:
 
 ```bash
 $ git clone --origin=seed --branch=main --single-branch \
-    https://github.com/kriasoft/relay-starter-kit.git example
+    https://github.com/mcaj-git/kriasoft-relay-starter-kit example
 $ cd ./example                  # Change current directory to the newly created one
 $ yarn install                  # Install project dependencies
 $ yarn setup                    # Configure environment variables
@@ -99,17 +99,17 @@ $ yarn dlx @yarnpkg/sdks vscode # Update VSCode settings
 ## How to Contribute
 
 Anyone and everyone is welcome to [contribute](.github/CONTRIBUTING.md). Start
-by checking out the list of [open issues](https://github.com/kriasoft/relay-starter-kit/issues)
-marked [help wanted](https://github.com/kriasoft/relay-starter-kit/issues?q=label:"help+wanted").
+by checking out the list of [open issues](https://github.com/mcaj-git/kriasoft-relay-starter-kit/issues)
+marked [help wanted](https://github.com/mcaj-git/kriasoft-relay-starter-kit/issues?q=label:"help+wanted").
 However, if you decide to get involved, please take a moment to review the
 [guidelines](.github/CONTRIBUTING.md).
 
 ## License
 
 Copyright © 2016-present Kriasoft. This source code is licensed under the MIT license found in the
-[LICENSE](https://github.com/kriasoft/relay-starter-kit/blob/main/LICENSE) file.
+[LICENSE](https://github.com/mcaj-git/kriasoft-relay-starter-kit/blob/main/LICENSE) file.
 
 ---
 
 <sup>Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya), [blog](https://medium.com/@koistya))
-and [contributors](https://github.com/kriasoft/relay-starter-kit/graphs/contributors).</sup>
+and [contributors](https://github.com/mcaj-git/kriasoft-relay-starter-kit/graphs/contributors).</sup>
